@@ -10,10 +10,11 @@
 }
 
 .lastetEpisodes {
+  
   ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     gap: 1.5rem;
 
     li {
@@ -35,7 +36,6 @@
       .episodeDetails {
         flex: 1;
         margin-left: 1rem;
-
 
         a {
           display: block;
